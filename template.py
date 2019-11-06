@@ -4,20 +4,29 @@ import sys
 import os
 import json
 from selenium import webdriver
-
+from pyvirtualdisplay import Display
 
 
 def main(args):
-    driver = webdriver.Chrome('conf/chromedriver.exe')
+    #display to execute in a server without gui(commented for test)
+    display = Display(visible=0, size=(800, 600))
+    display.start()
+    driver = webdriver.Chrome('conf/chromedriver')
     driver.get('http://www.google.com/')
     # Let the user actually see something!
     time.sleep(5)
     search_box = driver.find_element_by_name('q')
-    search_box.send_keys('ChromeDriver')
+    search_box.send_keys('EPN ecuador')
     search_box.submit()
+    time.sleep(3)
+    elem = driver.find_element_by_link_text("Carreras")
+    print elem
+    print elem.text
     # Let the user actually see something!
     time.sleep(5)
     driver.quit()
+    
+    display.stop()
 
 if __name__=='__main__':
     argparser = argparse.ArgumentParser(prog='Crawler template',
