@@ -4,30 +4,36 @@ import sys
 import os
 import json
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
-def main(args):    
-    driver = webdriver.Chrome('conf/chromedriver.exe')
+def main(args):
+    options = Options()
+    options.add_argument('--headless')    
+    driver = webdriver.Chrome('conf/chromedriver', chrome_options=options)
+    
     #Variable data que va a almacenar la informacion
     data = {}
     data['empleos'] = []
 
-    #Bucle que toma los datos de 2 anuncios con codigo 62695 y 62696
-    for i in range(62695,62697):        
+    """Bucle que toma los datos de los anuncios desde el primer anuncio que es del 2012 con numero 30372
+    hasta el ultimo anuncio de este anio con numero 62812"""
+    for i in range(30372,62813):        
         driver.get('https://www.porfinempleo.com/page/anuncio.php?cod='+str(i))        
         elem = driver.find_elements_by_class_name("anuncio-container")
-        #Variable temporal que almacena el codigo, ciudad, industria,etc
+        #Variable temporal
         temporal=[]
         #Bucle que recorre los elementos anuncio-container
         for i in elem:
             print i.text
             temporal.append(i.text)
         #Se agrega el empleo a 'empleos'
-        data['empleos'].append({
-        'codigo': temporal[0],
+            
+            """Formato estandar que tendran las tres paginas, la interseccion de datos de las 3 son:
+            ciudad, fecha publicacion, cargo, contrato o jornada y salario"""
+            
+        data['empleos'].append({        
         'ciudad': temporal[1],
-        'industria': temporal[2],
-        'publicado': temporal[3],
-        'vacantes': temporal[4],
+        'publicado': temporal[3],        
         'cargo': temporal[5],
         'contrato': temporal[6],
         'salario': temporal[7]})
