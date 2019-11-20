@@ -1,0 +1,1159 @@
+{
+    "empleos": [
+        {
+            "cargo": "Desarrollador Front end", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 12:48", 
+            "salario": "1.000,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ejecutivo de Ventas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 12:41", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Senior Java/JEE Developer", 
+            "ciudad": "B\u00e9lgica", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 09:15", 
+            "salario": "2.500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Pasante sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Medio Tiempo", 
+            "publicado": "Hoy, 09:15", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista Programador", 
+            "ciudad": "Dur\u00e1n,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 05:10 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Asistente de Soporte T\u00e9cnico", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:33 (actualizada)", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Inform\u00e1tico sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:33 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Pasante de Tecnolog\u00edas de la Informaci\u00f3n", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:03 (actualizada)", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Pasante de Infraestructura", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Beca/Pr\u00e1cticas", 
+            "publicado": "Hoy, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Contratista Fibra Optica", 
+            "ciudad": "Manta,  Manab\u00ed", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Coordinador de TI", 
+            "ciudad": "Dur\u00e1n,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Arquitecto de aplicaciones y Programador Full Stack", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollador", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:03 (actualizada)", 
+            "salario": "1.200,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador Senior PHP", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Hoy, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador web", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 05:04", 
+            "salario": "500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ejecutivo de Ventas de Sistema Contable", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 03:32", 
+            "salario": "400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista programador/a de sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 02:19", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador PHP Puro y Laravel", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 12:11", 
+            "salario": "700,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador .Net con Experiencia", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 08:16", 
+            "salario": "1.800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador .net", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 08:16", 
+            "salario": "1.000,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador Senior .Net", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 08:16", 
+            "salario": "1.500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Contratista de Fibra \u00d3ptica", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:33 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Typescript", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:33 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollo de software", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador .NET", 
+            "ciudad": "Chillanes,  Bol\u00edvar", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Vendedor/a", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:03 (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Especialista en Redes de la informacion", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:03 (actualizada)", 
+            "salario": "1.000,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "T\u00e9cnico instalador de Fibra Optica", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:03 (actualizada)", 
+            "salario": "500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Pasante de sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:03 (actualizada)", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ingeniero soporte inform\u00e1tico", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "Ayer, 04:03 (actualizada)", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador de Aplicaciones M\u00f3viles y Web", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre", 
+            "salario": "1.350,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Software developer with experience in web technologies", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollador programador", 
+            "ciudad": "Cuenca,  Azuay", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Operador de Consola", 
+            "ciudad": "Cuenca,  Azuay", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre", 
+            "salario": "700,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador programador", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Asistente contable administrativa", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Instituto Superior Necesita", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "T\u00e9cnico instalador de Fibra Optica", 
+            "ciudad": "Rumi\u00f1ahui,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Contratista de Fibra Optica", 
+            "ciudad": "Rumi\u00f1ahui,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Contratista de Fibra Optica", 
+            "ciudad": "Rumi\u00f1ahui,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista desarrollador Junior", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Contratista Fibra Optica", 
+            "ciudad": "Manta,  Manab\u00ed", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador sistemas .Net C#, Angular JS, MVC,", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista desarrollador", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista de sistemas", 
+            "ciudad": "Cuenca,  Azuay", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Implementador servicio al cliente sistemas ERP", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "18 noviembre (actualizada)", 
+            "salario": "500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista de sistemas con experiencia", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "16 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Asesor comisionista Productos de Tecnolog\u00eda y Electr\u00f3nica", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "15 noviembre", 
+            "salario": "400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ingenieros implemetacion", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "15 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Senior Full Stack Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "15 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Tecnico N3", 
+            "ciudad": "Cuenca,  Azuay", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "15 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "T\u00e9cnico de Soporte", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "T\u00e9cnico de Soporte", 
+            "ciudad": "Santo Domingo,  Santo Domingo de los Ts\u00e1chilas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Remote Frontend JavaScript Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "14 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Pasante de Desarrollo de Software", 
+            "ciudad": "Santo Domingo,  Santo Domingo de los Ts\u00e1chilas", 
+            "contrato": "Beca/Pr\u00e1cticas", 
+            "publicado": "14 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "T\u00e9cnico de Soporte", 
+            "ciudad": "Loja,  Loja", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "T\u00e9cnico de Soporte", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Tecnico G1", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "700,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "T\u00e9cnico de Soporte", 
+            "ciudad": "Manta,  Manab\u00ed", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Soporte Tecnico", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Programador", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "1.000,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ingeniero en sistemas", 
+            "ciudad": "Latacunga,  Cotopaxi", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Pasantes Dise\u00f1o e Inform\u00e1tica (programadores)", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Beca/Pr\u00e1cticas", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Asesor Comercial", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "1.400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista programador/a de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Medio Tiempo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "450,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "T\u00e9cnico soporte", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 noviembre (actualizada)", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Web Junior", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "13 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Remote Frontend JavaScript Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "13 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programadores ODOO v8", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "13 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollador Senior Front End React y Node Js", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "13 noviembre", 
+            "salario": "500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Impulsadores/as de ventas de Tecnolog\u00eda con Experiencia", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "13 noviembre", 
+            "salario": "400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Tecnico", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "12 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Remote Senior Web Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "12 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Desarrollador", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "12 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Web", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "12 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Remote Junior Web Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "12 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista de Datos y Proyectos", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "11 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "programador", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "11 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista de base de datos", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "11 noviembre", 
+            "salario": "500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Pasante Ingenier\u00eda en Sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Beca/Pr\u00e1cticas", 
+            "publicado": "11 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Remote HTML/CSS and WordPress Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "8 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista y desarrollador de software Quito", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "7 noviembre", 
+            "salario": "500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Digitadoras", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "7 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollador iOS", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "6 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Bachilleres", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "5 noviembre (actualizada)", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Gerente de infraestructura", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "4 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Senior Java JEE Developer", 
+            "ciudad": "B\u00e9lgica", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "4 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollador programador", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "4 noviembre", 
+            "salario": "1.000,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador de Software", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "1 noviembre", 
+            "salario": "700,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "T\u00e9cnico de sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "1 noviembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Busco Tecnico", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "31 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador PHP Puro y Laravel", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "30 octubre", 
+            "salario": "601,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ingeniero/Analista de Sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "30 octubre", 
+            "salario": "1.000,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Asistente ICT", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Medio Tiempo", 
+            "publicado": "30 octubre", 
+            "salario": "1.184,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador de aplicaciones m\u00f3viles", 
+            "ciudad": "M\u00e9xico", 
+            "contrato": "Desde Casa", 
+            "publicado": "30 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista de desarrollo", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "29 octubre", 
+            "salario": "1.200,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "29 octubre", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Asistente departamento de sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "29 octubre", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador de Software", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "29 octubre", 
+            "salario": "699,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista calidad software", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "29 octubre", 
+            "salario": "700,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador de Software.Net (Nivel Intermedio)", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "28 octubre", 
+            "salario": "700,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "28 octubre", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Remote React/React Native Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "25 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Web Full Stack", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 octubre", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Programador con s\u00f3lidos conocimientos C#, SQL, Android", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 octubre", 
+            "salario": "1.000,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "asistente de gerencia tecnica", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "22 octubre", 
+            "salario": "450,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Coordinador de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "21 octubre", 
+            "salario": "700,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Dise\u00f1ador web y gr\u00e0fico", 
+            "ciudad": "Ecuador", 
+            "contrato": "Desde Casa", 
+            "publicado": "21 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Jr", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "21 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Asesor comercial", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "21 octubre", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ingeniero de Desarrollo", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "21 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Agente de ventas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "21 octubre", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ing. en sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "21 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Asistente comercial", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "16 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Pasante en Sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Beca/Pr\u00e1cticas", 
+            "publicado": "16 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollador de Software Quito", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "16 octubre", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ejecutivo de Ventas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "16 octubre", 
+            "salario": "400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador web Php JavaScript Sql Java", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "16 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Se solicitan pasantes para Desarrollo de software", 
+            "ciudad": "Portoviejo,  Manab\u00ed", 
+            "contrato": "Beca/Pr\u00e1cticas", 
+            "publicado": "16 octubre", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ingeniero de Desarrollo de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "15 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Pasante de Sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Beca/Pr\u00e1cticas", 
+            "publicado": "15 octubre", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Vendedor o Vendedora", 
+            "ciudad": "Machala,  El Oro", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Php, Java , Sql , JavaScript Contabilidad", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "14 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Auxiliar en inform\u00e1tica", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "10 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista y desarrollador de software", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "8 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": ".net developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "7 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "7 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Gerente de proyectos", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "7 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Desarrollador .net", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "7 octubre", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Senior .NET developer", 
+            "ciudad": "B\u00e9lgica", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "4 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Senior Java JEE Developer", 
+            "ciudad": "B\u00e9lgica", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "4 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Conductor profesional", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "4 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "JavaScript Developer", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "4 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Ingenieros de Sistemas", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Desde Casa", 
+            "publicado": "4 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista programador/a de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "4 octubre", 
+            "salario": "400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Vendedor", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "2 octubre", 
+            "salario": "394,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Programador Odoo / Python", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "2 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Senior Java JEE Developer", 
+            "ciudad": "B\u00e9lgica", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "2 octubre", 
+            "salario": "2.500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Ingeniero en Networking", 
+            "ciudad": "Milagro,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "2 octubre", 
+            "salario": "800,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador/a Senior Java", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "1 octubre", 
+            "salario": "1.500,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Consultores Funcionales (Financieros y Log\u00edsticos) Quito", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "1 octubre", 
+            "salario": "1.100,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "T\u00e9cnico para soporte e instalaci\u00f3n de seguridad electr\u00f3nica", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "1 octubre", 
+            "salario": "440,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "React SSR/SR", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Desde Casa", 
+            "publicado": "1 octubre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista programador Java EE", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "30 septiembre", 
+            "salario": "1.200,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Vendedor freelancer", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Medio Tiempo", 
+            "publicado": "30 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Remote Manual QA", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Por Horas", 
+            "publicado": "27 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Web PHP", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "26 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Service controller", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "26 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista y desarrollador de software", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "26 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador/a PHP", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "26 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista programador/a java", 
+            "ciudad": "Ibarra,  Imbabura", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "25 septiembre", 
+            "salario": "550,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista programador/a java", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "25 septiembre", 
+            "salario": "550,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador programador Web y movil", 
+            "ciudad": "Rumi\u00f1ahui,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "25 septiembre", 
+            "salario": "833,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Se Solicita Asesor comercial con experiencia", 
+            "ciudad": "Ambato,  Tungurahua", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "25 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista inform\u00e1tico", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "24 septiembre", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador JAVA Senior", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "24 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador Web", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "24 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Analista", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "24 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Programador en PHP Puro", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 septiembre", 
+            "salario": "600,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista de desarrollo de sistemas", 
+            "ciudad": "Salinas,  Santa Elena", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Community Manager", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 septiembre", 
+            "salario": "400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Desarrollador mobil xamarin y/o android", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 septiembre", 
+            "salario": "400,00 US$ (Neto mensual)"
+        }, 
+        {
+            "cargo": "Analista programador/a de sistemas", 
+            "ciudad": "Guayaquil,  Guayas", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 septiembre", 
+            "salario": "A convenir"
+        }, 
+        {
+            "cargo": "Service Controller", 
+            "ciudad": "Quito,  Pichincha", 
+            "contrato": "Tiempo Completo", 
+            "publicado": "23 septiembre", 
+            "salario": "A convenir"
+        }
+    ]
+}
