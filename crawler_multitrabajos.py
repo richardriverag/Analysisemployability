@@ -51,7 +51,7 @@ def main(args):
     driver.quit()
     
     #Se exporta a un json
-    with open('empleos_multitrabajos.json', 'w') as file:
+    with open('data_multitrabajos.json', 'w') as file:
         json.dump(data, file, indent=4) 
 
 
