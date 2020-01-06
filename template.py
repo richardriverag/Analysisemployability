@@ -15,14 +15,13 @@ def main(args):
     driver = webdriver.Chrome('conf/chromedriver', chrome_options=options)
     driver.get('http://www.google.com/')
     # Let the user actually see something!
-    time.sleep(5)
+    #time.sleep(5)
     search_box = driver.find_element_by_name('q')
     search_box.send_keys('EPN ecuador')
     search_box.submit()
-    time.sleep(3)
+    #time.sleep(3)
     elem = driver.find_element_by_link_text("Carreras")
-    print elem
-    print elem.text
+    print (elem.text)
     # Let the user actually see something!
     time.sleep(5)
     driver.quit()

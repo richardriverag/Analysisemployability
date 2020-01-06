@@ -30,12 +30,12 @@ def main(args):
         print(e['url'])
         driver.get(e['url'])    
         cargo = driver.find_element_by_class_name("aviso_title")
-        print cargo.text
+        print (cargo.text)
     
         elem = driver.find_elements_by_css_selector("div.col-sm-12.col-md-6.col-lg-10.spec_def")
         temporal=[]
         for i in elem:        
-            print i.text
+            print (i.text)
             temporal.append(i.text)
                 
         #Se agrega el empleo a 'empleos'
