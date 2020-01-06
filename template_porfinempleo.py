@@ -19,7 +19,7 @@ def main(args):
 
     """Bucle que toma los datos de los anuncios desde el primer anuncio que es del 2012 con numero 30372
     hasta el ultimo anuncio de este anio con numero 62812"""
-    for i in range(30372,63200): # 62813
+    for i in range(63200,30300,-1): # 63200
         try:
             data[i] = {}
             driver.get('https://www.porfinempleo.com/page/anuncio.php?cod='+str(i))
@@ -62,8 +62,8 @@ def main(args):
     driver.quit()
     #print(data)
     #Se exporta a un json la variable data
-    with open('data_porfinempleo.json', 'w') as file:
-        json.dump(data, file, indent=4)
+    with open('data_porfinempleo.json', 'w') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 
 if __name__=='__main__':
