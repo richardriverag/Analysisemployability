@@ -45,19 +45,6 @@ def main(args):
             for e in elem:
                 detalle.append(e.text)
             #print(anuncio)
-            # data[i].append({
-            # 'date_collected': datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"),
-            # 'codigo': anuncio[0],
-            # 'ciudad': anuncio[1],
-            # 'industria': anuncio[2],
-            # 'publicado': anuncio[3],
-            # 'vacantes': anuncio[4],
-            # 'cargo': anuncio[5],
-            # 'contrato': anuncio[6],
-            # 'salario': anuncio[7],
-            # 'descripcion': detalle[0],
-            # 'beneficios':detalle[1]
-            # })
             data[i]['date_collected']= datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f")
             data[i]['codigo']= anuncio[0]
             data[i]['ciudad']= anuncio[1]
