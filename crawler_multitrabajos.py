@@ -15,44 +15,53 @@ def main(args):
     driver = webdriver.Chrome('conf/chromedriver', chrome_options=options)
 
     data = {}
-    #data['empleos'] = []
+    data['empleos'] = []
 
     with open('urls_multitrabajos.json') as file:
         informacion = json.load(file)
     c=0
-    for e in informacion['todos']:
+    """for e in informacion['todos']:
         c=c+1
         print(c)
-        print(e['url'])    
+        print(e['url'])   """ 
     
     for e in informacion['todos']:        
-        print(e['url'])
-        driver.get(e['url'])    
-        tituloAviso = driver.find_element_by_class_name("aviso_title")
-        descripcionAviso = driver.find_element_by_class_name("aviso_description")
-        print (tituloAviso.text)
-        print (descripcionAviso.text)
-        print (datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"))
-    
-        elem = driver.find_elements_by_css_selector("div.col-sm-12.col-md-6.col-lg-10.spec_def")
-        temporal=[]
-        for i in elem:        
-            print (i.text)
-            temporal.append(i.text)
+        print(e['url'])        
 
-        for i in temporal:
-            print i
-                        
-        #Se agrega el empleo a 'empleos'           
-        data['empleos'].append({
-        'date_collected': datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"),
-        'ciudad': temporal[0],
-        'publicado': temporal[1],        
-        'tituloAviso': tituloAviso.text,
-        'tipoPuesto': temporal[3],
-        'salario': temporal[2],
-        'area': temporal[4],
-        'descripcion': descripcionAviso.text})        
+        try:
+            driver.get(e['url'])    
+            tituloAviso = driver.find_element_by_class_name("aviso_title")
+            areaPortal=driver.find_elements_by_class_name("breadcrumb-item")
+            empresa=driver.find_element_by_class_name("aviso_company")            
+            descripcionAviso = driver.find_element_by_class_name("aviso_description")
+            
+            """print (tituloAviso.text)
+            print (descripcionAviso.text)"""
+            print (datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"))
+        
+            elem = driver.find_elements_by_css_selector("div.col-sm-12.col-md-6.col-lg-10.spec_def")
+            temporal=[]
+            for i in elem:        
+                print (i.text)
+                temporal.append(i.text)
+
+            """for i in temporal:
+                print i"""
+                            
+            #Se agrega el empleo a 'empleos'           
+            data['empleos'].append({
+            'date_collected': datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"),
+            'ciudad': temporal[0],
+            'publicado': temporal[1],        
+            'tituloAviso': tituloAviso.text,
+            'tipoPuesto': temporal[3],
+            'salario': temporal[2],
+            'areaSolicitante': temporal[4],
+            'areaPortal': areaPortal[1].text,
+            'empresa': empresa.text,
+            'descripcion': descripcionAviso.text})
+        except:
+            continue
         
     driver.quit()
     
@@ -69,3 +78,4 @@ if __name__=='__main__':
         help='file with URLS')
     args = argparser.parse_args()
     main(args)
+
