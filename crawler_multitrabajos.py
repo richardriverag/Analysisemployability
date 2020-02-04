@@ -1,4 +1,5 @@
 import time
+import datetime
 import argparse
 import sys
 import os
@@ -7,46 +8,51 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
-def main(args):
-    data = {}
-    data['empleos'] = []
-     
-    #fecha=time.strftime("%d/%m/%y"))
-    
+def main(args):  
     options = Options()
-    options.add_argument('--headless')    
-    driver = webdriver.Chrome('conf/chromedriver', chrome_options=options)    
+    options.add_argument('--headless')
+    #options.add_argument('log-level=3')
+    driver = webdriver.Chrome('conf/chromedriver', chrome_options=options)
 
-    with open('urls_multitrabajos_sistemas.json') as file:
+    data = {}
+    #data['empleos'] = []
+
+    with open('urls_multitrabajos.json') as file:
         informacion = json.load(file)
     c=0
-    for e in informacion['tecnologia sistemas y telecomunicaciones']:
+    for e in informacion['todos']:
         c=c+1
         print(c)
         print(e['url'])    
     
-    for e in informacion['tecnologia sistemas y telecomunicaciones']:
-        
+    for e in informacion['todos']:        
         print(e['url'])
         driver.get(e['url'])    
-        cargo = driver.find_element_by_class_name("aviso_title")
-        print (cargo.text)
+        tituloAviso = driver.find_element_by_class_name("aviso_title")
+        descripcionAviso = driver.find_element_by_class_name("aviso_description")
+        print (tituloAviso.text)
+        print (descripcionAviso.text)
+        print (datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"))
     
         elem = driver.find_elements_by_css_selector("div.col-sm-12.col-md-6.col-lg-10.spec_def")
         temporal=[]
         for i in elem:        
             print (i.text)
             temporal.append(i.text)
-                
-        #Se agrega el empleo a 'empleos'
-           
-        data['empleos'].append({        
+
+        for i in temporal:
+            print i
+                        
+        #Se agrega el empleo a 'empleos'           
+        data['empleos'].append({
+        'date_collected': datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"),
         'ciudad': temporal[0],
         'publicado': temporal[1],        
-        'cargo': cargo.text,
-        'contrato': temporal[3],
-        'salario': temporal[2]})
-        
+        'tituloAviso': tituloAviso.text,
+        'tipoPuesto': temporal[3],
+        'salario': temporal[2],
+        'area': temporal[4],
+        'descripcion': descripcionAviso.text})        
         
     driver.quit()
     

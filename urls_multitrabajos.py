@@ -6,6 +6,7 @@ import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+
 def main(args):
     options = Options()
     options.add_argument('--headless')    
@@ -15,44 +16,39 @@ def main(args):
     #Variable global para ser usada en una funcion
     global data
     data={}
-    data['tecnologia sistemas y telecomunicaciones'] = []
-
+    data['todos'] = []
+    
     driver.get('https://www.multitrabajos.com/empleos-area-tecnologia-sistemas-y-telecomunicaciones.html')
+    #driver.get('https://www.multitrabajos.com/empleos-ecuador.html?recientes=true')
     #driver.get('https://www.multitrabajos.com/empleos-area-tecnologia-sistemas-y-telecomunicaciones-pagina-7.html')
 
-    #Variable la flecha para cambiar a la siguiente pagina
+    #Variable de la flecha para cambiar a la siguiente pagina
     siguiente = driver.find_elements_by_class_name('next')
-    largoinicial=len(siguiente[1].get_attribute('href'))
-    largo=len(siguiente[1].get_attribute('href'))
+    largoinicial=len(siguiente[1].get_attribute('href'))    
+    largo=len(siguiente[1].get_attribute('href'))    
     
     #Bucle while para recorrer automaticamente todas las paginas sin necesidad de saber el numero de paginas
-    while(largoinicial==largo):    
-        #print(largo)
-        #print siguiente[1].get_attribute('href')
-        recoleccionLinks(driver)
-        siguiente[1].click()
-        time.sleep(1)
+    while(largoinicial==largo):           
+        recoleccionLinks(driver)       
+        driver.get(siguiente[1].get_attribute('href'))
         siguiente = driver.find_elements_by_class_name('next')
-        largo=len(siguiente[1].get_attribute('href'))
-        
-    #print('FINAL')            
+        largo=len(siguiente[1].get_attribute('href'))        
+                
     driver.quit()
     #Se exporta a un json la variable data
-    with open('urls_multitrabajos_sistemas.json', 'w') as file:
-        json.dump(data, file, indent=4) 
+    with open('urlsnuevas_multitrabajos.json', 'w') as file:
+        json.dump(data, file, indent=4)
 
 
-def recoleccionLinks(driversel):
-    elem = driversel.find_elements_by_css_selector("div.col-sm-9.col-md-10.col-xs-9.wrapper")        
-    #c=0
+def recoleccionLinks(driversel):        
+    elem = driversel.find_elements_by_css_selector("div.col-sm-9.col-md-10.col-xs-9.wrapper")            
     url=''
     for i in elem:        
-        #c=c+1        
-        #print c
-        url=i.find_element_by_css_selector('a').get_attribute('href')
+        url=i.find_element_by_css_selector('a').get_attribute('href')        
         print url
-        data['tecnologia sistemas y telecomunicaciones'].append({        
-        'url': url})        
+        data['todos'].append({        
+        'url': url})
+    
 
 if __name__=='__main__':
     argparser = argparse.ArgumentParser(prog='Crawler template',
