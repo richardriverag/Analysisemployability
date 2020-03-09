@@ -12,23 +12,23 @@ def main(args):
     driver = webdriver.Chrome('conf/chromedriver', chrome_options=options)
         
     data={}
-    data['informatica y telecomunicaciones'] = []
+    data['todos'] = []
 
-    for i in range(1,10):        
-        driver.get('https://www.computrabajo.com.ec/empleos-de-informatica-y-telecom?p='+str(i))    
+    for i in range(151,1,-1):        
+        driver.get('https://www.computrabajo.com.ec/ofertas-de-trabajo/?p='+str(i))        
         elem = driver.find_elements_by_class_name("js-o-link")
         url=''
         for i in elem:
             print i.text
             url=i.get_attribute('href')
             print url
-            data['informatica y telecomunicaciones'].append({        
+            data['todos'].append({        
             'url': url})       
 
     driver.quit()
     
     #Se exporta a un json la variable data
-    with open('urls_computrabajo_informatica.json', 'w') as file:
+    with open('urls_computrabajo.json', 'w') as file:
         json.dump(data, file, indent=4)
 
 if __name__=='__main__':
