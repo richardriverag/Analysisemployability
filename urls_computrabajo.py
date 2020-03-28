@@ -14,7 +14,7 @@ def main(args):
     data={}
     data['todos'] = []
 
-    for i in range(151,1,-1):        
+    for i in range(119,1,-1):        
         driver.get('https://www.computrabajo.com.ec/ofertas-de-trabajo/?p='+str(i))        
         elem = driver.find_elements_by_class_name("js-o-link")
         url=''

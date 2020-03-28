@@ -7,9 +7,7 @@ import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-
-def main(args):
-    #fecha=time.strftime("%d/%m/%y"))
+def main(args):    
     options = Options()
     options.add_argument('--headless')    
     driver = webdriver.Chrome('conf/chromedriver', chrome_options=options)
@@ -17,12 +15,11 @@ def main(args):
     data = {}
     data['empleos'] = []
 
-    with open('urls_compu.json') as file:
+    with open('urls_computrabajo.json') as file:
         informacion = json.load(file)
     
     for e in informacion['todos']:        
         print(e['url'])
-
         try:
             driver.get(e['url'])
             elem=driver.find_elements_by_xpath("//header//span")
@@ -33,49 +30,45 @@ def main(args):
             print(temporal1)        
             print('largo1')
             print(len(temporal1))
-            
-            if len(temporal1)!=10:
-                publicado=temporal1[-1]           
-                
-                elem=driver.find_elements_by_xpath('//section[contains(@class,"box") and contains(@class, "box_r")]//ul// li//p')     
-                temporal2=[]        
-                for i in elem:                    
-                    print i.text                    
-                    temporal2.append(i.text)
-                            
-                try:
-                    temporal2.remove('')
-                except:
-                    print('No existe elemento vacio en lista')
+            publicado=temporal1[-1]
                     
-                for i in range(1,5):            
-                    print temporal2[i]
-                print(temporal2)
-                print('largo2')
-                print(len(temporal2))
-                descripcion = driver.find_element_by_class_name("cm-12 box_i bWord")
-                print descripcion
-                print (" d e  s  c r  i  p                   c  i  o  n ")
-                for i in descripcion:
-                    print i.text
-                
-                
-                #Se agrega el empleo a 'empleos'
+            elem=driver.find_element_by_class_name("detalle_textoempresa")
+            empresa=elem.find_element_by_tag_name("h2")         
+            descripcion=driver.find_element_by_xpath('//*[contains(@class,"bWord")]//ul//li')
+            elem=driver.find_elements_by_xpath('//section[contains(@class,"box") and contains(@class, "box_r")]//ul//li//p')    
+            
+            temporal2=[]        
+            for i in elem:                    
+                print i.text                  
+                temporal2.append(i.text)
+
+            if (len(temporal2)==6):
                 data['empleos'].append({
-                    'date_collected': datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"),
-                    'ciudad': temporal2[2],
-                    'publicado': publicado,        
-                    'cargo': temporal2[0],
-                    'jornada': temporal2[3],
-                    'contrato': temporal2[4],
-                    'salario': temporal2[5],
-                    'descripcion': temporal2[0],
-                    'requerimientos': temporal2[2],
-                    'empresa': temporal2[1]                
-                    })
+                        'date_collected': datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"),
+                        'ciudad': temporal2[2],
+                        'publicado': publicado,        
+                        'cargo': temporal2[0],
+                        'jornada': temporal2[3],
+                        'contrato': temporal2[4],
+                        'salario': temporal2[5],
+                        'descripcion': descripcion.text,                
+                        'empresa': empresa.text               
+                        })
+            else:
+                data['empleos'].append({
+                        'date_collected': datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S.%f"),
+                        'ciudad': temporal2[1],
+                        'publicado': publicado,        
+                        'cargo': temporal2[0],
+                        'jornada': temporal2[2],
+                        'contrato': temporal2[3],
+                        'salario': temporal2[4],
+                        'descripcion': descripcion.text,                
+                        'empresa': empresa.text                
+                        })
         except:
             continue
-                
+    
     #Se exporta a un json
     with open('empleos_computrabajo.json', 'w') as file:
         json.dump(data, file, indent=4)
