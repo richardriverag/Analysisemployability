@@ -1,7 +1,5 @@
 import datetime
 import argparse
-import sys
-import os
 import json
 
 def main(args):
@@ -27,16 +25,15 @@ def main(args):
             'date_collected': e['date_collected'],
             'ciudad': e['ciudad'],
             'publicado': str(nuevaFecha),        
-            'tituloAviso': e['tituloAviso'],
-            'tipoPuesto': e['tipoPuesto'],
+            'cargo': e['tituloAviso'],
+            'jornada': e['tipoPuesto'],
             'salario': e['salario'],
-            'areaSolicitante': e['areaSolicitante'],
-            'areaPortal': e['areaPortal'],
+            'area': [e['areaSolicitante'],e['areaPortal']],
             'empresa': e['empresa'],
             'descripcion': e['descripcion']})
 
             
-    with open('data_multitrabajos_clean.json', 'w') as file:
+    with open('data_multitrabajos_cleanASDASD.json', 'w') as file:
         json.dump(data, file, indent=4)
 
 if __name__=='__main__':

@@ -1,6 +1,5 @@
 import datetime
 import argparse
-
 import json
 
 def main(args):
@@ -10,13 +9,16 @@ def main(args):
             informacion = json.load(file)    
     c=0    
     for i in informacion.values():        
+        #print(i.get('date_collected'))   
         c=c+1        
         if i != {}:
-            data['empleos'].append(i) 
+            i['jornada'] = i.pop('contrato')
+            i['area']=i.pop('industria')
+            data['empleos'].append(i)      
         if c==21832:
-            break        
+            break
 
-    with open('data_porfinempleo_clean.json', 'w') as file:
+    with open('data_porfinempleo_clean_mongo.json', 'w') as file:
         json.dump(data, file, indent=4)
 
 if __name__=='__main__':
