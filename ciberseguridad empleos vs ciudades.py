@@ -10,45 +10,67 @@ import operator
 def main(args):    
     ciudades=['Guayaquil','Quito','Cuenca','Santo','Machala','Durán','Manta','Portoviejo','Loja','Ambato','Esmeraldas','Quevedo','Riobamba','Milagro','Ibarra','Babahoyo','Sangolquí','Daule','Latacunga','Tulcán','Chone','Pasaje','Huaquillas','Montecristi', 'Samborondón','Otavalo','Cayambe','Rumiñahui']
     labels=['Guayaquil','Quito','Cuenca','Santo Domingo','Machala','Durán','Manta','Portoviejo','Loja','Ambato','Esmeraldas','Quevedo','Riobamba','Milagro','Ibarra','Babahoyo','Sangolquí','Daule','Latacunga','Tulcán','Chone','Pasaje','Huaquillas','Montecristi', 'Samborondón','Otavalo','Cayambe','Rumiñahui','Otros']
-    x=range(len(labels))
-    
+
+  
     y=[]
     for i in labels:
         y.append(0)    
     client = MongoClient()    
       
     collection = client['analisismercadolaboral']['empleos'].find({})
-    for i in collection:
-
-        var=i['ciudad']        
+    keyword=["ciberseguridad","ciber seguridad","ciber-seguridad","informatica","hacking","ethical hacker"]
+    for i in collection:        
+        var=i['ciudad']
+        descripcion=i['descripcion'].lower()        
         h=var.capitalize()
         h=h.split()        
         h[0]=h[0].rstrip(",")
-        c=0
-        logico=0
-        if h[0] in ciudades:
-            n=ciudades.index(h[0])
-            y[n]=y[n]+1
-        else:
-            y[-1]=y[-1]+1
-          
-    total=np.sum(y)
-    print(total)
-    porcentajes=[]
-    for p in range(len(labels)):        
-        porcentajes.append(round((y[p]/total)*100,1))    
-    for e in range(len(labels)):
-        labels[e]=labels[e]+"("+str(y[e])+") "+str(porcentajes[e])+"% "
         
+        
+        for j in keyword:
+            if j in descripcion:
+                #print(i["date_collected"])
+                if h[0] in ciudades:
+                    n=ciudades.index(h[0])
+                    y[n]=y[n]+1
+                else:
+                    y[-1]=y[-1]+1
+                break
+    
+
+    #Creacion de diccionario para ordenamiento con area y numero de empleos por area       
+    desordenado={} 
+    for i in range(len(ciudades)):
+        desordenado[ciudades[i]]=y[i]
+    ordenado=sorted(desordenado.items(), key=operator.itemgetter(1), reverse=True)
+    total=0
+    for i in ordenado:        
+        total=total+i[1]
+    c=0
+    sublabels=[]
+    suby=[]
+    for j in ordenado:
+        if j[1]==0:
+            break
+        else:            
+            sublabels.append(labels[c]+"("+str(j[1])+") "+str(round((j[1]/total)*100,2))+"% ")
+            suby.append(j[1])
+            c=c+1
+        
+    x=range(len(sublabels))
+    print(sublabels)
+
+
     fig = plt.figure(u'Analisis Mercado Laboral')
-    ax = fig.add_subplot()
-    plt.title("Empleos vs Ciudades") 
+    ax = fig.add_subplot(111)
+    plt.title("Empleos de Ciberseguridad por ciudades") 
     plt.xlabel("Empleos") 
     plt.ylabel("Ciudades")
     ax.set_yticks(x)
-    ax.set_yticklabels(labels)
-    ax.barh(x,y) 
-    plt.show()     
+    ax.set_yticklabels(sublabels)
+    ax.barh(x,suby) 
+    plt.show()
+
 
 
 if __name__=='__main__':

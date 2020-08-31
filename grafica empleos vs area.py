@@ -5,22 +5,27 @@ import pymongo
 from pymongo import MongoClient
 import numpy as np 
 from matplotlib import pyplot as plt
+import operator
 
 def main(args):    
     areas=[]
     c=0
     client = MongoClient()   
-    #holo = client['analisismercadolaboral']['empleos'].find({}).count()    
+    # client['analisismercadolaboral']['empleos'].find({}).count()    
     collection = client['analisismercadolaboral']['empleos'].find({})
-    for i in collection:        
+    #Creacion de arreglo de areas
+    for i in collection:
+        #Manejo de excepción para Computrabajo que no tiene 'area'
         try:
             var=i['area']
+            #Condición para no tomar las áreas de Multitrabajos
             if len(var)!=2:
                 if var not in areas:
                     areas.append(var)
         except:
-            c=0           
-
+            c=0
+            
+    #Creacion de arreglo para contar la repeticion de areas    
     y=[]
     for i in areas:
         y.append(0)
@@ -28,49 +33,49 @@ def main(args):
     collection = client['analisismercadolaboral']['empleos'].find({})
     for i in collection:        
         try:
-            area=i['area']
-            
+            area=i['area']            
             if len(area)!=2:                
                 if area in areas:
                     n=areas.index(area)
                     y[n]=y[n]+1
         except:
-            c=0            
+            c=0
+    #Creacion de diccionario para ordenamiento con area y numero de empleos por area       
+    empleosareas={} 
+    for i in range(len(areas)):
+        empleosareas[areas[i]]=y[i]
+    empleosareas_ordenado=sorted(empleosareas.items(), key=operator.itemgetter(1), reverse=True)
 
-    print(y)
+    #Paso de diccionario a arreglos para grafica de barras
     subareas=[]
-    suby=[]
-    for i in areas:
-        n=areas.index(i)
-        if y[n]>=60:
-            subareas.append(i)
-            suby.append(y[n])
-    print("AREAS NO TOMADAS EN CUENTA")
-    for i in areas:
-        if i not in subareas:
-            print(i)
+    suby=[]    
+    for i in empleosareas_ordenado:
+        suby.append(i[1])
+        subareas.append(i[0]+"("+str(i[1])+") ")        
 
-    x=range(len(subareas))
-    print(len(areas))
-    print(len(subareas))
     fig = plt.figure(u'Analisis Mercado Laboral')
-    ax = fig.add_subplot(111)
+    ax = fig.add_subplot()
     plt.title("Empleos vs Areas") 
     plt.xlabel("Empleos") 
     plt.ylabel("Areas")
-    ax.set_yticks(x)
-    ax.set_yticklabels(subareas)
-    #plt.legend(labels)
-   # plt.set_xticklabels(labels)
-    #plt.plot(x,y)
-    ax.barh(x,suby)
+    ax.set_yticks(x[0:45])
+    ax.set_yticklabels(subareas[0:45])
+    ax.barh(x[0:45],suby[0:45])
     plt.show()
 
-    porcentajes = suby[0:6]
-    nombres = subareas[0:6]    
+    #Creacion de arreglos para grafica de pastel
+    pastelp=[]    
+    pastelp.append(suby[0:16])
+    pastelp[0].append(sum(suby[16:len(suby)]))
+    pasteln=[]
+    pasteln.append(subareas[0:16])
+    pasteln[0].append("Otros")
+    
+    porcentajes = pastelp[0][0:17]
+    nombres = pasteln[0][0:17]   
     plt.pie(porcentajes, labels=nombres, autopct="%0.1f %%")
     plt.axis("equal")
-    plt.show() 
+    plt.show()
 
 
 if __name__=='__main__':
