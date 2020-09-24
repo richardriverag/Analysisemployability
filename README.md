@@ -1,10 +1,10 @@
 # Analysisemployability
-Analysis Employability Cibersecurity
+Analysis Employability
 
-Descripción del contenido de cada carpeta
+Descripciï¿½n del contenido de cada carpeta
 
 conf:
-Tiene el driver para la comunicación de Selenium con Google Chrome.
+Tiene el driver para la comunicaciï¿½n de Selenium con Google Chrome.
 
 Crawlers de empleos:
 Los crawlers que importan las urls de empleos y exportan los empleos.(Porfinempleo, Computrabajo y Multitrabajos).
@@ -15,8 +15,8 @@ Los crawlers que recolectan todas la urls(Computrabajo y Multitrabajos).
 Data:
 Contiene la data de cada portal que se carga a MongoDB.
 
-Gráficas:
-Tiene los programas que crean todas las gráficas del proyecto.
+Grï¿½ficas:
+Tiene los programas que crean todas las grï¿½ficas del proyecto.
 
 Limpieza de datos:
 Contiene los scripts que limpian la raw data, eliminando campo vacios, reemplazando nombres de campos,etc.
